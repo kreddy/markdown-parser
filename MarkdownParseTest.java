@@ -4,7 +4,7 @@ public class MarkdownParseTest {
 
     @Test
     public void addition() {
-        assertEquals(8, 34 + 1);
+        assertEquals(35, 34 + 1);
     }
 
 }
