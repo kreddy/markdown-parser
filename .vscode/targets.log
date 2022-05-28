@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Sat May 14 19:25:41 2022
+
+# Make data base, printed on Sat May 28 14:08:26 2022
 
 # Variables
 
@@ -38,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/8p/fcnhhyy12c1cvpxqwnwt7my00000gn/T/vscode-ipc-0b33933a-875e-4c55-8744-b865cb5c1b89.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/8p/fcnhhyy12c1cvpxqwnwt7my00000gn/T/vscode-ipc-7038847b-af15-47aa-a7cd-00c4d7144e0e.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -50,7 +53,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.OvK3ogRpe7/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Qwtb4u27zV/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -66,7 +69,7 @@ HOME = /Users/krishna
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/krishna/Library/Application Support/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = /Users/krishna/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = krishna
 # environment
@@ -93,6 +96,7 @@ USER = krishna
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+ 
 # default
 .VARIABLES := 
 # environment
@@ -100,7 +104,7 @@ TMPDIR = /var/folders/8p/fcnhhyy12c1cvpxqwnwt7my00000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/krishna/Library/Application Support/Code/1.67.0-main.sock
+VSCODE_IPC_HOOK = /Users/krishna/Library/Application Support/Code/1.67.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -108,7 +112,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.18446438.18446444
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.19599775.19599781
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -132,7 +136,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 62558
+VSCODE_PID = 11483
 # variable set hash-table stats:
 # Load=61/1024=6%, Rehash=0, Collisions=1/84=1%
 
@@ -142,9 +146,9 @@ VSCODE_PID = 62558
 
 # Directories
 
-# . (device 16777231, inode 16718237): 31 files, no impossibilities.
+# . (device 16777230, inode 16718237): 34 files, no impossibilities.
 
-# 31 files, no impossibilities in 1 directories.
+# 34 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -184,6 +188,7 @@ Test: MarkdownParse.class MarkdownParseTest.class
 	java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
 	
 
+ 
 MarkdownParseTest.class: MarkdownParseTest.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -231,8 +236,6 @@ MarkdownParse.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sat May 14 19:25:41 2022
+# Finished Make data base on Sat May 28 14:08:26 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-

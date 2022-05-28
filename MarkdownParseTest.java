@@ -1,5 +1,12 @@
 import static org.junit.Assert.*;
 import org.junit.*;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+
+
+
 public class MarkdownParseTest {
 
     @Test
@@ -37,8 +44,7 @@ public class MarkdownParseTest {
         String contents3 = Files.readString(fileName3);
         ArrayList<String> links5 = MarkdownParse.getLinks(contents3);
         ArrayList<String> links6 = new ArrayList<String>();
-        links13.add(https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
-);
+        links6.add("https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule");
         assertEquals(links6, links5);
     }
 
